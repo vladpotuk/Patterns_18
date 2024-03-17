@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public abstract class DataProcessor<T>
 {
+
     protected List<T> data;
 
     public DataProcessor(List<T> data)
