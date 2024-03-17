@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 public class VehicleReportVisitor : IVisitor
 {
     public void VisitCar(Car car)
