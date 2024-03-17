@@ -15,4 +15,9 @@ public class IntegerDataProcessor : DataProcessor<int>
             Console.WriteLine("Integer data item: " + item);
         }
     }
+
+    protected override void PostProcess()
+    {
+        Console.WriteLine("Additional postprocessing for integers...");
+    }
 }

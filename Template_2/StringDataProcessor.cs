@@ -15,4 +15,9 @@ public class StringDataProcessor : DataProcessor<string>
             Console.WriteLine("String data item: " + item);
         }
     }
+
+    protected override void PreProcess()
+    {
+        Console.WriteLine("Additional preprocessing for strings...");
+    }
 }
